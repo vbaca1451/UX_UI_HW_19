@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(214, 219, 216);
+}
+nav{
+    width: 100%;
+    background: black;
+    overflow: auto;
+}
+ul{
+ padding:0;
+ margin:0 0 0 150px;
+ list-style: none;   
+}
+li {
+    float: left;
+}
+nav{
+  width: 100%;
+  background: black;
+  overflow: auto;
+}
+
+nav a{
+ width:100px;
+ display:block;
+ padding:20px 15px;
+ text-decoration:none;
+ font-family:Arial;
+ color:#f2f2f2;
+ text-align:center;
+}
+nav a:hover {
+ background:rgb(78, 38, 172);
+ transition: 0.5s;
+ text-transform: uppercase;
+}
+
+footer {
+    background-color: rgb(65, 170, 156);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-section{
+    padding: 20px;
+    text-align: left;
+    background-color: #848f89;
+    color: rgb(10, 10, 10);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  
