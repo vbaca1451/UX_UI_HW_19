@@ -41,11 +41,43 @@ footer {
     background-color: rgb(65, 170, 156);
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+
+.image {
+  opacity: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+transition: .5s ease;
+  backface-visibility: hidden;
 }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 .home-section{
     padding: 20px;
     text-align: left;
